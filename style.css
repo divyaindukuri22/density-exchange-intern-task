@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f2f2f2;
+    color: #333;
+}
+
+.header {
+    background-color: #000; /* Change the background color to black */
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #1a90ff;
+}
+
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.hero {
+    background-image: url('your-background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding: 4rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #1a90ff;
+}
+
+.hero p {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #1aff29;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 2rem;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #007acc;
+    transform: scale(1.05);
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #000; /* Change the background color to black */
+    color: white;
+}
+
+/* Hover animation for the header links */
+.nav-links li {
+    transition: transform 0.2s;
+}
+
+.nav-links li:hover {
+    transform: translateY(-3px);
+}
