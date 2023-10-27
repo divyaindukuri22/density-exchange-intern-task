@@ -13,7 +13,7 @@ This repository contains the source code for the Density Exchange Frontend UI In
 
 ## Demo
 
-You can see a live demo of the website [here](density-exchange-intern-task.netlify.app).
+You can see a live demo of the website [here](https://density-exchange-intern-task.netlify.app/).
 
 ## Features
 
